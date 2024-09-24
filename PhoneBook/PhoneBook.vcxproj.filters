@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="QueryParser">
+      <UniqueIdentifier>{5cf0fb25-7cc1-43ce-8891-3e452290fe9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QueryParser\headers">
+      <UniqueIdentifier>{02e9185e-5f0b-418d-8a1f-173db50c4dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QueryParser\sources">
+      <UniqueIdentifier>{c248db50-6da7-4c29-b673-9676b3fdccf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{e11bedcc-6651-485c-a789-383872b74c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{e3a8c938-ea25-4306-a99a-16667277a24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository">
+      <UniqueIdentifier>{9a4215ff-58b1-4ce1-a985-dbaf228c6e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\headers">
+      <UniqueIdentifier>{81979456-4f23-4d8c-b4eb-536a012cd0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\sources">
+      <UniqueIdentifier>{238d9bf7-beeb-4105-a5a1-78bef7d475e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository\headers">
+      <UniqueIdentifier>{93ba9bc9-c489-400e-9808-8a9b4bd9cef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository\sources">
+      <UniqueIdentifier>{957ed1f2-e45b-4840-a03c-171786237027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6fc8e883-6e93-4050-9442-2d40b4f1844e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QueryParser.cpp">
+      <Filter>QueryParser\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeFactory.cpp">
+      <Filter>QueryParser\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>QueryParser\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>QueryParser\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandView.cpp">
+      <Filter>View\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayView.cpp">
+      <Filter>View\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>Repository\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>Repository\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Observable.cpp">
+      <Filter>Repository\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicalAnalyzer.cpp">
+      <Filter>QueryParser\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxAnalyzer.cpp">
+      <Filter>QueryParser\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition.cpp">
+      <Filter>QueryParser\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneBook.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QueryParser.h">
+      <Filter>QueryParser\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeFactory.h">
+      <Filter>QueryParser\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>QueryParser\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>QueryParser\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandView.h">
+      <Filter>View\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayView.h">
+      <Filter>View\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>View\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>Repository\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>Repository\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>Repository\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalAnalyzer.h">
+      <Filter>QueryParser\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxAnalyzer.h">
+      <Filter>QueryParser\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition.h">
+      <Filter>QueryParser\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
